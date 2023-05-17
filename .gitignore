@@ -1,33 +1,30 @@
-# Gradle files
-.gradle/
-build/
+# Created by https://www.toptal.com/developers/gitignore/api/windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows
 
-# Local configuration file (sdk path, etc)
-local.properties
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
 
-# Log/OS Files
-*.log
+# Dump file
+*.stackdump
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+# Folder config file
+[Dd]esktop.ini
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Keystore files
-*.jks
-*.keystore
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Windows shortcuts
+*.lnk
 
-# Android Profiling
-*.hprof
+# End of https://www.toptal.com/developers/gitignore/api/windows
